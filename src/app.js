@@ -1,3 +1,13 @@
+/*
+* File: app.js
+* Author: Sallai András
+* Copyright: 2024, Sallai András
+* Group: szit.hu
+* Date: 2024-12-03
+* Github: https://github.com/oktat/teelcone
+* Licenc: MIT
+*/
+
 import {calcVolume} from './utils.js';
 
 const doc = {
