@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kúp</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">        
+  </head>
+  <body>
+    <div class="container">
+      <h1>Ellipszis alapú kúp</h1>
+      <p>
+        Ellipszis alapú kúp térfogatának számítása
+      </p>
+
+      <div class="coneForm">
+        <div class="form-group">
+          <label for="height">Magasság</label>
+          <input type="number" class="form-control" id="height" placeholder="Magasság">
+        </div>
+        <div class="form-group">
+          <label for="radius1">Sugár 1</label>
+          <input type="number" class="form-control" 
+          id="radius1" placeholder="egyik sugár"
+          required>
+      </div>
+      <div class="form-group">
+        <label for="radius2">Sugár 2</label>
+        <input type="number" class="form-control" 
+        id="radius2" placeholder="egyik sugár"
+        required>
+      </div>
+      <div>
+        <button class="btn btn-primary my-3"
+        id="calcButton">Számít</button>
+        <button class="btn btn-primary my-3" 
+        id="clearButton">Töröl</button>
+        <button class="btn btn-primary my-3"
+        id="aboutButton">Névjegy</button>
+      </div>
+      <div class="input-group">
+        <span class="input-group-text">Térfogat</span>
+        <input type="text" class="form-control" id="volume" readonly>
+        <span class="input-group-text">m^3</span>
+      </div>
+    </div>
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
+
